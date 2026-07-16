@@ -24,19 +24,9 @@ a:hover { color: #C2410C; }
 }
 .hero-media video {
   width: 100%;
-  max-width: 3840px;
+  max-width: 1920px;
   height: 100%;
   object-fit: cover;
-}
-/* The video is 16:9. Once the viewport gets wider than that (short/wide
-   windows, ultrawide monitors), cover crops more and more off the top and
-   bottom, making the subject look zoomed in. Past that point, switch to
-   contain so the full frame stays visible, letterboxed with the hero's own
-   background color on the sides instead of cropping the scene vertically. */
-@media (min-aspect-ratio: 16/9) {
-  .hero-media video {
-    object-fit: contain;
-  }
 }
 
 /* Nav/hero links keep their light colors on hover */
