@@ -11,6 +11,24 @@ a:hover { color: #C2410C; }
 @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 .skills-marquee:hover { animation-play-state: paused; }
 
+/* Hero background video: cap its real display width so it never scales past a
+   sane resolution on big/ultrawide monitors (avoids blur + excessive crop-zoom). */
+.hero-media {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  background: #201308;
+}
+.hero-media video {
+  width: 100%;
+  max-width: 3840px;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* Nav/hero links keep their light colors on hover */
 .nav a:hover, .contact-btn:hover { color: #FFB765; }
 

@@ -19,9 +19,11 @@
   <!-- ================= HERO ================= -->
   <header data-screen-label="Hero" style="position:relative; z-index:5; min-height:100vh; display:flex; flex-direction:column; overflow:hidden; background:#201308; color:#F4EEE6;">
 
-    <video id="hero-video" autoplay loop muted playsinline aria-hidden="true" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;">
-      <source src="/hero-bg.mp4" type="video/mp4">
-    </video>
+    <div class="hero-media" aria-hidden="true">
+      <video id="hero-video" autoplay loop muted playsinline>
+        <source src="/hero-bg.mp4" type="video/mp4">
+      </video>
+    </div>
     <div aria-hidden="true" style="position:absolute; inset:0; z-index:1; background:linear-gradient(180deg, rgba(20,10,5,.35) 0%, rgba(20,10,5,.25) 45%, rgba(20,10,5,.75) 100%);"></div>
 
     <!-- NAV -->
