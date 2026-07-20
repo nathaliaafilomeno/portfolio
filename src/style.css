@@ -28,6 +28,22 @@ a:hover { color: #C2410C; }
 /* Nav/hero links keep their light colors on hover */
 .nav a:hover, .contact-btn:hover { color: #FFB765; }
 
+/* Language switch */
+.lang-switch { display: inline-flex; align-items: center; gap: 6px; }
+.lang-btn {
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  color: #8f8778;
+  cursor: pointer;
+}
+.lang-btn:hover { color: #FFB765; }
+.lang-btn.is-active { color: #F4EEE6; }
+.lang-sep { color: #5f594f; }
+
 /* ===== Badge (TeamMate DS, variant outline) ===== */
 .badge {
   display: inline-flex;

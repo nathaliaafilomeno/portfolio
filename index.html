@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nathalia Filomeno — Graphic &amp; Product Designer</title>
-  <meta name="description" content="Portfólio de Nathalia Filomeno — designer gráfica e de produto. UX/UI, design systems, branding e identidade visual.">
+  <title data-i18n="meta.title">Nathalia Filomeno — Graphic &amp; Product Designer</title>
+  <meta name="description" data-i18n-content="meta.description" content="Portfólio de Nathalia Filomeno — designer gráfica e de produto. UX/UI, design systems, branding e identidade visual.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23201308'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='sans-serif' font-weight='700' font-size='14' fill='%23F4EEE6'%3ENF%3C/text%3E%3Ccircle cx='25' cy='21' r='2.4' fill='%23FA6404'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,10 +30,13 @@
     <nav class="nav" style="position:relative; z-index:2; display:flex; align-items:center; justify-content:space-between; padding:30px clamp(20px,5vw,64px);">
       <a href="#top" style="font-family:'Outfit',sans-serif; font-weight:600; font-size:24px; letter-spacing:.02em; color:#F4EEE6; display:inline-flex; align-items:baseline;">NF<span style="color:#FFB765;">.</span></a>
       <div class="nav-links" style="display:flex; align-items:center; gap:clamp(14px,2.4vw,34px); font-size:12.5px; letter-spacing:.16em; text-transform:uppercase; font-weight:400;">
-        <a href="#sobre" style="color:#E7DFD3;">Sobre</a>
-        <a href="#trabalhos" style="color:#E7DFD3;">Trabalhos</a>
-        <a href="#experiencia" style="color:#E7DFD3;">Experiência</a>
-        <a href="#contato" style="display:inline-flex; align-items:center; color:#F4EEE6; border:1px solid rgba(244,238,230,.4); padding:8px 18px; border-radius:999px;">Contato</a>
+        <a href="#sobre" data-i18n="nav.about" style="color:#E7DFD3;">Sobre</a>
+        <a href="#trabalhos" data-i18n="nav.work" style="color:#E7DFD3;">Trabalhos</a>
+        <a href="#experiencia" data-i18n="nav.experience" style="color:#E7DFD3;">Experiência</a>
+        <div class="lang-switch" role="group" aria-label="Idioma / Language">
+          <button type="button" class="lang-btn" data-lang-btn="pt">PT</button><span class="lang-sep">/</span><button type="button" class="lang-btn" data-lang-btn="en">EN</button>
+        </div>
+        <a href="#contato" data-i18n="nav.contact" style="display:inline-flex; align-items:center; color:#F4EEE6; border:1px solid rgba(244,238,230,.4); padding:8px 18px; border-radius:999px;">Contato</a>
       </div>
     </nav>
 
@@ -44,9 +47,9 @@
       <div style="display:inline-flex; align-items:center; gap:12px; font-size:11px; letter-spacing:.28em; text-transform:uppercase; color:#FFB765; margin-bottom:20px; font-weight:500; animation:riseIn .8s .1s both;">
         <span style="width:24px; height:1px; background:#FFB765;"></span>Nathalia Filomeno — Graphic &amp; Product Designer
       </div>
-      <blockquote style="margin:0 auto; font-family:'Outfit',sans-serif; font-weight:500; font-size:clamp(19px,2.7vw,31px); line-height:1.24; letter-spacing:-.01em; color:#F7F2EB; max-width:16ch; animation:riseIn .95s .2s both;">Transformo o complexo em <span style="color:#FFB765; font-weight:600;">clareza visual</span>.</blockquote>
+      <blockquote data-i18n-html="hero.quote" style="margin:0 auto; font-family:'Outfit',sans-serif; font-weight:500; font-size:clamp(19px,2.7vw,31px); line-height:1.24; letter-spacing:-.01em; color:#F7F2EB; max-width:16ch; animation:riseIn .95s .2s both;">Transformo o complexo em <span style="color:#FFB765; font-weight:600;">clareza visual</span>.</blockquote>
       <div style="display:flex; justify-content:center; margin-top:30px; animation:riseIn 1.05s .38s both;">
-        <a href="#trabalhos" style="display:inline-flex; align-items:center; gap:10px; background:#F4EEE6; color:#201308; font-weight:500; font-size:15px; padding:14px 30px; border-radius:999px; letter-spacing:.02em;">Ver trabalhos →</a>
+        <a href="#trabalhos" data-i18n="hero.cta" style="display:inline-flex; align-items:center; gap:10px; background:#F4EEE6; color:#201308; font-weight:500; font-size:15px; padding:14px 30px; border-radius:999px; letter-spacing:.02em;">Ver trabalhos →</a>
       </div>
     </div>
   </header>
@@ -55,16 +58,16 @@
   <section id="sobre" data-screen-label="Sobre" class="dark" style="position:relative; z-index:5; background:#0B0807; overflow:hidden;">
     <div aria-hidden="true" style="position:absolute; top:-10%; right:-6%; width:44vw; height:44vw; border-radius:50%; background:radial-gradient(circle,#FA6404,rgba(250,100,4,0) 62%); opacity:.14; filter:blur(90px); animation:drift 22s ease-in-out infinite;"></div>
     <div style="position:relative; padding:clamp(60px,9vh,96px) clamp(20px,6vw,88px); max-width:940px; margin:0 auto;">
-      <div style="font-size:12px; letter-spacing:.28em; text-transform:uppercase; color:#FA6404; margin-bottom:20px;">Um pouco sobre mim</div>
-      <h2 style="font-family:'Outfit',sans-serif; font-weight:600; font-size:clamp(26px,3.6vw,42px); line-height:1.1; margin:0 0 24px; color:#F4EEE6; letter-spacing:-.02em; max-width:20ch;">Designer nas duas pontas: <span style="color:#FFB765;">estratégia e execução</span></h2>
+      <div data-i18n="about.eyebrow" style="font-size:12px; letter-spacing:.28em; text-transform:uppercase; color:#FA6404; margin-bottom:20px;">Um pouco sobre mim</div>
+      <h2 data-i18n-html="about.title" style="font-family:'Outfit',sans-serif; font-weight:600; font-size:clamp(26px,3.6vw,42px); line-height:1.1; margin:0 0 24px; color:#F4EEE6; letter-spacing:-.02em; max-width:20ch;">Designer nas duas pontas: <span style="color:#FFB765;">estratégia e execução</span></h2>
       <div class="cols-2" style="display:grid; grid-template-columns:1fr 1fr; gap:clamp(24px,4vw,52px);">
-        <p style="font-size:16px; line-height:1.8; color:#C4BBAF; font-weight:300; margin:0;">Sou designer com mais de 5 anos de experiência conectando estratégia de comunicação a design de produto, identidade visual e experiências digitais. Atuo do UX/UI e product design — pesquisa com usuários, design systems, dashboards e fluxos complexos — ao design gráfico e branding.</p>
-        <p style="font-size:16px; line-height:1.8; color:#C4BBAF; font-weight:300; margin:0;">Tenho domínio de Figma e do pacote Adobe, e integro inteligência artificial ao meu fluxo criativo — Claude, Midjourney e DALL·E — para acelerar a ideação e elevar a qualidade das entregas.</p>
+        <p data-i18n="about.p1" style="font-size:16px; line-height:1.8; color:#C4BBAF; font-weight:300; margin:0;">Sou designer com mais de 5 anos de experiência conectando estratégia de comunicação a design de produto, identidade visual e experiências digitais. Atuo do UX/UI e product design — pesquisa com usuários, design systems, dashboards e fluxos complexos — ao design gráfico e branding.</p>
+        <p data-i18n="about.p2" style="font-size:16px; line-height:1.8; color:#C4BBAF; font-weight:300; margin:0;">Tenho domínio de Figma e do pacote Adobe, e integro inteligência artificial ao meu fluxo criativo — Claude, Midjourney e DALL·E — para acelerar a ideação e elevar a qualidade das entregas.</p>
       </div>
       <div style="display:flex; flex-wrap:wrap; gap:52px; margin-top:44px;">
-        <div><div style="font-family:'Outfit',sans-serif; font-size:46px; font-weight:600; line-height:1; color:#FFDD44; letter-spacing:-.02em;">5+</div><div style="font-size:12px; color:#9d9488; margin-top:8px; text-transform:uppercase; letter-spacing:.14em;">Anos de experiência</div></div>
-        <div><div style="font-family:'Outfit',sans-serif; font-size:46px; font-weight:600; line-height:1; color:#FA6404; letter-spacing:-.02em;">1.000+</div><div style="font-size:12px; color:#9d9488; margin-top:8px; text-transform:uppercase; letter-spacing:.14em;">Usuários impactados</div></div>
-        <div><div style="font-family:'Outfit',sans-serif; font-size:46px; font-weight:600; line-height:1; color:#E2725B; letter-spacing:-.02em;">3</div><div style="font-size:12px; color:#9d9488; margin-top:8px; text-transform:uppercase; letter-spacing:.14em;">Áreas de atuação</div></div>
+        <div><div style="font-family:'Outfit',sans-serif; font-size:46px; font-weight:600; line-height:1; color:#FFDD44; letter-spacing:-.02em;">5+</div><div data-i18n="about.stat1Label" style="font-size:12px; color:#9d9488; margin-top:8px; text-transform:uppercase; letter-spacing:.14em;">Anos de experiência</div></div>
+        <div><div data-i18n="about.stat2Num" style="font-family:'Outfit',sans-serif; font-size:46px; font-weight:600; line-height:1; color:#FA6404; letter-spacing:-.02em;">1.000+</div><div data-i18n="about.stat2Label" style="font-size:12px; color:#9d9488; margin-top:8px; text-transform:uppercase; letter-spacing:.14em;">Usuários impactados</div></div>
+        <div><div style="font-family:'Outfit',sans-serif; font-size:46px; font-weight:600; line-height:1; color:#E2725B; letter-spacing:-.02em;">3</div><div data-i18n="about.stat3Label" style="font-size:12px; color:#9d9488; margin-top:8px; text-transform:uppercase; letter-spacing:.14em;">Áreas de atuação</div></div>
       </div>
     </div>
   </section>
@@ -73,8 +76,8 @@
   <section id="trabalhos" data-screen-label="Trabalhos" style="position:relative; z-index:5; background:linear-gradient(200deg, #FCE3B4 0%, #F6C6A0 55%, #EAA89A 100%); color:#2A1608;">
     <div style="padding:clamp(64px,10vh,110px) clamp(20px,6vw,88px) clamp(72px,11vh,120px); max-width:1240px; margin:0 auto; position:relative;">
       <div style="margin-bottom:52px;">
-        <div style="font-size:12px; letter-spacing:.28em; text-transform:uppercase; color:#B0400F; margin-bottom:12px;">Trabalhos selecionados</div>
-        <h2 style="font-family:'Outfit',sans-serif; font-weight:600; font-size:clamp(30px,4.4vw,52px); line-height:1; margin:0; color:#2A1608; letter-spacing:-.02em;">Projetos <span style="color:#C2410C;">&amp; entregas</span></h2>
+        <div data-i18n="work.eyebrow" style="font-size:12px; letter-spacing:.28em; text-transform:uppercase; color:#B0400F; margin-bottom:12px;">Trabalhos selecionados</div>
+        <h2 data-i18n-html="work.title" style="font-family:'Outfit',sans-serif; font-weight:600; font-size:clamp(30px,4.4vw,52px); line-height:1; margin:0; color:#2A1608; letter-spacing:-.02em;">Projetos <span style="color:#C2410C;">&amp; entregas</span></h2>
       </div>
 
       <!-- WORK 1 -->
@@ -82,22 +85,22 @@
         <div class="work-head" style="display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:clamp(24px,4vw,56px); align-items:end; margin-bottom:30px;">
           <div>
             <div style="font-family:'Outfit',sans-serif; font-size:56px; font-weight:600; line-height:1; color:rgba(178,64,15,.3); letter-spacing:-.02em;">01</div>
-            <h3 style="font-family:'Outfit',sans-serif; font-weight:600; font-size:clamp(24px,3vw,34px); margin:6px 0 8px; color:#2A1608; line-height:1.04; letter-spacing:-.02em;">Redesign da plataforma Koleta Dados</h3>
-            <div style="font-size:14px; color:#B0400F; letter-spacing:.02em;">4 peças</div>
+            <h3 data-i18n="work1.title" style="font-family:'Outfit',sans-serif; font-weight:600; font-size:clamp(24px,3vw,34px); margin:6px 0 8px; color:#2A1608; line-height:1.04; letter-spacing:-.02em;">Redesign da plataforma Koleta Dados</h3>
+            <div data-i18n="work1.count" style="font-size:14px; color:#B0400F; letter-spacing:.02em;">4 peças</div>
           </div>
           <div>
-            <p style="font-size:15px; line-height:1.7; color:#5c4636; font-weight:400; margin:0 0 16px;">Pesquisa com usuários, design system escalável no Figma e dashboards corporativos com foco em usabilidade e eficiência operacional.</p>
+            <p data-i18n="work1.desc" style="font-size:15px; line-height:1.7; color:#5c4636; font-weight:400; margin:0 0 16px;">Pesquisa com usuários, design system escalável no Figma e dashboards corporativos com foco em usabilidade e eficiência operacional.</p>
             <div style="display:flex; flex-wrap:wrap; gap:8px;">
               <span class="badge">UX/UI</span>
-              <span class="badge">Design System</span>
+              <span class="badge" data-i18n="work1.badge2">Design System</span>
             </div>
           </div>
         </div>
         <div class="grid-4" style="display:grid; grid-template-columns:repeat(4,1fr); gap:18px;">
-          <div class="tile"><div class="slot"><img src="/images/w1-1.webp" alt="Dashboard inicial redesenhado, com KPIs comparativos e rankings em barras" loading="lazy"></div></div>
-          <div class="tile"><div class="slot"><img src="/images/w1-2.webp" data-x="9.2673" alt="Tela de orçamentos do cliente, com busca, seleção múltipla e tabela de locais" loading="lazy"></div></div>
-          <div class="tile"><div class="slot"><img src="/images/w1-3.webp" data-x="0.7129" alt="Formulário de informações do usuário em seções, com chips de equipes" loading="lazy"></div></div>
-          <div class="tile"><div class="slot"><img src="/images/w1-4.webp" data-y="16.2304" alt="Versões mobile do dashboard e da lista de clientes, com navegação inferior e KPIs em grade" loading="lazy"></div></div>
+          <div class="tile"><div class="slot"><img src="/images/w1-1.webp" data-i18n-alt="w1-1.alt" alt="Dashboard inicial redesenhado, com KPIs comparativos e rankings em barras" loading="lazy"></div></div>
+          <div class="tile"><div class="slot"><img src="/images/w1-2.webp" data-x="9.2673" data-i18n-alt="w1-2.alt" alt="Tela de orçamentos do cliente, com busca, seleção múltipla e tabela de locais" loading="lazy"></div></div>
+          <div class="tile"><div class="slot"><img src="/images/w1-3.webp" data-x="0.7129" data-i18n-alt="w1-3.alt" alt="Formulário de informações do usuário em seções, com chips de equipes" loading="lazy"></div></div>
+          <div class="tile"><div class="slot"><img src="/images/w1-4.webp" data-y="16.2304" data-i18n-alt="w1-4.alt" alt="Versões mobile do dashboard e da lista de clientes, com navegação inferior e KPIs em grade" loading="lazy"></div></div>
         </div>
       </div>
 
@@ -106,27 +109,27 @@
         <div class="work-head" style="display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:clamp(24px,4vw,56px); align-items:end; margin-bottom:30px;">
           <div>
             <div style="font-family:'Outfit',sans-serif; font-size:56px; font-weight:600; line-height:1; color:rgba(178,64,15,.3); letter-spacing:-.02em;">02</div>
-            <h3 style="font-family:'Outfit',sans-serif; font-weight:600; font-size:clamp(24px,3vw,34px); margin:6px 0 8px; color:#2A1608; line-height:1.04; letter-spacing:-.02em;">Peças para mídias sociais e campanhas</h3>
-            <div style="font-size:14px; color:#B0400F; letter-spacing:.02em;">9 peças</div>
+            <h3 data-i18n="work2.title" style="font-family:'Outfit',sans-serif; font-weight:600; font-size:clamp(24px,3vw,34px); margin:6px 0 8px; color:#2A1608; line-height:1.04; letter-spacing:-.02em;">Peças para mídias sociais e campanhas</h3>
+            <div data-i18n="work2.count" style="font-size:14px; color:#B0400F; letter-spacing:.02em;">9 peças</div>
           </div>
           <div>
-            <p style="font-size:15px; line-height:1.7; color:#5c4636; font-weight:400; margin:0 0 16px;">Posts, anúncios, banners e materiais promocionais de alto impacto, otimizados para engajamento e posicionamento de marca.</p>
+            <p data-i18n="work2.desc" style="font-size:15px; line-height:1.7; color:#5c4636; font-weight:400; margin:0 0 16px;">Posts, anúncios, banners e materiais promocionais de alto impacto, otimizados para engajamento e posicionamento de marca.</p>
             <div style="display:flex; flex-wrap:wrap; gap:8px;">
               <span class="badge">Social Media</span>
-              <span class="badge">Campanhas</span>
+              <span class="badge" data-i18n="work2.badge2">Campanhas</span>
             </div>
           </div>
         </div>
         <div class="grid-3" style="display:grid; grid-template-columns:repeat(3,1fr); gap:18px;">
-          <div class="tile"><div class="slot"><img src="/images/w2-1.webp" data-y="2.8779" alt="Peça de campanha" loading="lazy"></div></div>
-          <div class="tile"><div class="slot"><img src="/images/w2-2.webp" data-y="0.6882" alt="Peça de campanha" loading="lazy"></div></div>
-          <div class="tile"><div class="slot"><img src="/images/w2-3.webp" data-y="-5.0676" alt="Peça de campanha" loading="lazy"></div></div>
-          <div class="tile"><div class="slot"><img src="/images/w2-4.webp" alt="Peça de campanha" loading="lazy"></div></div>
-          <div class="tile"><div class="slot"><img src="/images/w2-5.webp" data-y="10.1975" alt="Peça de campanha" loading="lazy"></div></div>
-          <div class="tile"><div class="slot"><img src="/images/w2-6.webp" alt="Peça de campanha" loading="lazy"></div></div>
-          <div class="tile"><div class="slot"><img src="/images/w2-7.webp" data-y="-0.6256" alt="Peça de campanha" loading="lazy"></div></div>
-          <div class="tile"><div class="slot"><img src="/images/w2-8.webp" data-y="-2.0645" alt="Peça de campanha" loading="lazy"></div></div>
-          <div class="tile"><div class="slot"><img src="/images/w2-9.webp" data-y="-0.3128" alt="Peça de campanha" loading="lazy"></div></div>
+          <div class="tile"><div class="slot"><img src="/images/w2-1.webp" data-y="2.8779" data-i18n-alt="work2.pieceAlt" alt="Peça de campanha" loading="lazy"></div></div>
+          <div class="tile"><div class="slot"><img src="/images/w2-2.webp" data-y="0.6882" data-i18n-alt="work2.pieceAlt" alt="Peça de campanha" loading="lazy"></div></div>
+          <div class="tile"><div class="slot"><img src="/images/w2-3.webp" data-y="-5.0676" data-i18n-alt="work2.pieceAlt" alt="Peça de campanha" loading="lazy"></div></div>
+          <div class="tile"><div class="slot"><img src="/images/w2-4.webp" data-i18n-alt="work2.pieceAlt" alt="Peça de campanha" loading="lazy"></div></div>
+          <div class="tile"><div class="slot"><img src="/images/w2-5.webp" data-y="10.1975" data-i18n-alt="work2.pieceAlt" alt="Peça de campanha" loading="lazy"></div></div>
+          <div class="tile"><div class="slot"><img src="/images/w2-6.webp" data-i18n-alt="work2.pieceAlt" alt="Peça de campanha" loading="lazy"></div></div>
+          <div class="tile"><div class="slot"><img src="/images/w2-7.webp" data-y="-0.6256" data-i18n-alt="work2.pieceAlt" alt="Peça de campanha" loading="lazy"></div></div>
+          <div class="tile"><div class="slot"><img src="/images/w2-8.webp" data-y="-2.0645" data-i18n-alt="work2.pieceAlt" alt="Peça de campanha" loading="lazy"></div></div>
+          <div class="tile"><div class="slot"><img src="/images/w2-9.webp" data-y="-0.3128" data-i18n-alt="work2.pieceAlt" alt="Peça de campanha" loading="lazy"></div></div>
         </div>
       </div>
 
@@ -135,24 +138,24 @@
         <div class="work-head" style="display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:clamp(24px,4vw,56px); align-items:end; margin-bottom:30px;">
           <div>
             <div style="font-family:'Outfit',sans-serif; font-size:56px; font-weight:600; line-height:1; color:rgba(178,64,15,.3); letter-spacing:-.02em;">03</div>
-            <h3 style="font-family:'Outfit',sans-serif; font-weight:600; font-size:clamp(24px,3vw,34px); margin:6px 0 8px; color:#2A1608; line-height:1.04; letter-spacing:-.02em;">Identidades visuais para marcas</h3>
-            <div style="font-size:14px; color:#B0400F; letter-spacing:.02em;">6 peças</div>
+            <h3 data-i18n="work3.title" style="font-family:'Outfit',sans-serif; font-weight:600; font-size:clamp(24px,3vw,34px); margin:6px 0 8px; color:#2A1608; line-height:1.04; letter-spacing:-.02em;">Identidades visuais para marcas</h3>
+            <div data-i18n="work3.count" style="font-size:14px; color:#B0400F; letter-spacing:.02em;">6 peças</div>
           </div>
           <div>
-            <p style="font-size:15px; line-height:1.7; color:#5c4636; font-weight:400; margin:0 0 16px;">Logotipos, sistemas tipográficos e manuais de marca criados para empresas e marcas independentes de diversos setores.</p>
+            <p data-i18n="work3.desc" style="font-size:15px; line-height:1.7; color:#5c4636; font-weight:400; margin:0 0 16px;">Logotipos, sistemas tipográficos e manuais de marca criados para empresas e marcas independentes de diversos setores.</p>
             <div style="display:flex; flex-wrap:wrap; gap:8px;">
               <span class="badge">Branding</span>
-              <span class="badge">Identidade Visual</span>
+              <span class="badge" data-i18n="work3.badge2">Identidade Visual</span>
             </div>
           </div>
         </div>
         <div class="grid-3" style="display:grid; grid-template-columns:repeat(3,1fr); gap:18px;">
-          <div class="tile"><div class="slot"><img src="/images/w3-1.webp" data-y="-4.5671" alt="Foto de produto do pudim Palha Roza em pote de vidro, com a identidade da marca na embalagem" loading="lazy"></div></div>
-          <div class="tile"><div class="slot"><img src="/images/w3-2.webp" data-s="1.0703" data-x="3.1126" data-y="-1.9405" alt="Mockup do app TeamMate em um iPhone, com logotipo em escudo laranja e tagline 'seu time, no controle'" loading="lazy"></div></div>
-          <div class="tile"><div class="slot"><img src="/images/w3-3.webp" data-s="1.2406" data-x="-5.6543" data-y="-2.1773" alt="Identidade visual da marca de sorvetes Nuvê, com embalagens e sorvetes em tons de rosa" loading="lazy"></div></div>
-          <div class="tile"><div class="slot"><img src="/images/w3-4.webp" data-s="1.0905" data-x="-0.0292" data-y="0.2626" alt="Identidade de marca" loading="lazy"></div></div>
-          <div class="tile"><div class="slot"><img src="/images/w3-5.webp" alt="Identidade de marca" loading="lazy"></div></div>
-          <div class="tile"><div class="slot"><img src="/images/w3-6.webp" data-y="-10.3305" alt="Identidade de marca" loading="lazy"></div></div>
+          <div class="tile"><div class="slot"><img src="/images/w3-1.webp" data-y="-4.5671" data-i18n-alt="w3-1.alt" alt="Foto de produto do pudim Palha Roza em pote de vidro, com a identidade da marca na embalagem" loading="lazy"></div></div>
+          <div class="tile"><div class="slot"><img src="/images/w3-2.webp" data-s="1.0703" data-x="3.1126" data-y="-1.9405" data-i18n-alt="w3-2.alt" alt="Mockup do app TeamMate em um iPhone, com logotipo em escudo laranja e tagline 'seu time, no controle'" loading="lazy"></div></div>
+          <div class="tile"><div class="slot"><img src="/images/w3-3.webp" data-s="1.2406" data-x="-5.6543" data-y="-2.1773" data-i18n-alt="w3-3.alt" alt="Identidade visual da marca de sorvetes Nuvê, com embalagens e sorvetes em tons de rosa" loading="lazy"></div></div>
+          <div class="tile"><div class="slot"><img src="/images/w3-4.webp" data-s="1.0905" data-x="-0.0292" data-y="0.2626" data-i18n-alt="work3.brandAlt" alt="Identidade de marca" loading="lazy"></div></div>
+          <div class="tile"><div class="slot"><img src="/images/w3-5.webp" data-i18n-alt="work3.brandAlt" alt="Identidade de marca" loading="lazy"></div></div>
+          <div class="tile"><div class="slot"><img src="/images/w3-6.webp" data-y="-10.3305" data-i18n-alt="work3.brandAlt" alt="Identidade de marca" loading="lazy"></div></div>
         </div>
       </div>
     </div>
@@ -162,41 +165,41 @@
   <section id="experiencia" data-screen-label="Experiência" class="dark" style="position:relative; z-index:5; background:#0B0807; overflow:hidden;">
     <div aria-hidden="true" style="position:absolute; bottom:-12%; left:-8%; width:46vw; height:46vw; border-radius:50%; background:radial-gradient(circle,#E2725B,rgba(226,114,91,0) 62%); opacity:.13; filter:blur(100px); animation:drift 24s ease-in-out infinite;"></div>
     <div style="position:relative; padding:clamp(80px,12vh,130px) clamp(20px,6vw,88px); max-width:1240px; margin:0 auto;">
-      <div style="font-size:12px; letter-spacing:.28em; text-transform:uppercase; color:#FA6404; margin-bottom:18px;">Trajetória</div>
-      <h2 style="font-family:'Outfit',sans-serif; font-weight:600; font-size:clamp(40px,6.4vw,76px); line-height:1; margin:0 0 56px; color:#F4EEE6; letter-spacing:-.02em;">Experiência</h2>
+      <div data-i18n="exp.eyebrow" style="font-size:12px; letter-spacing:.28em; text-transform:uppercase; color:#FA6404; margin-bottom:18px;">Trajetória</div>
+      <h2 data-i18n="exp.title" style="font-family:'Outfit',sans-serif; font-weight:600; font-size:clamp(40px,6.4vw,76px); line-height:1; margin:0 0 56px; color:#F4EEE6; letter-spacing:-.02em;">Experiência</h2>
 
       <div class="exp-grid" style="display:grid; grid-template-columns:minmax(0,1.35fr) minmax(0,0.65fr); gap:clamp(36px,6vw,72px); align-items:start;">
         <!-- TIMELINE -->
         <div style="display:flex; flex-direction:column; gap:38px; border-left:1px solid rgba(255,221,68,.18); padding-left:28px;">
           <div style="position:relative;">
             <span style="position:absolute; left:-35px; top:6px; width:13px; height:13px; border-radius:50%; background:linear-gradient(135deg,#FFDD44,#FA6404);"></span>
-            <h3 style="font-family:'Outfit',sans-serif; font-weight:600; font-size:23px; line-height:1.1; margin:0 0 6px; color:#F4EEE6; letter-spacing:-.01em;">Designer Gráfico &amp; Designer Criativo</h3>
-            <div style="display:flex; flex-wrap:wrap; gap:4px 10px; align-items:baseline; margin-bottom:14px; font-size:14px;"><span style="color:#FA6404;">Galt · Brasil · Tempo integral</span><span style="color:#5f594f;">·</span><span style="color:#8f8778; letter-spacing:.04em;">2024</span></div>
+            <h3 data-i18n="job1.title" style="font-family:'Outfit',sans-serif; font-weight:600; font-size:23px; line-height:1.1; margin:0 0 6px; color:#F4EEE6; letter-spacing:-.01em;">Designer Gráfico &amp; Designer Criativo</h3>
+            <div style="display:flex; flex-wrap:wrap; gap:4px 10px; align-items:baseline; margin-bottom:14px; font-size:14px;"><span data-i18n="job1.meta" style="color:#FA6404;">Galt · Brasil · Tempo integral</span><span style="color:#5f594f;">·</span><span style="color:#8f8778; letter-spacing:.04em;">2024</span></div>
             <ul style="margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:9px;">
-              <li style="font-size:15px; line-height:1.6; color:#B7AEA2; font-weight:300; padding-left:18px; position:relative;"><span style="position:absolute; left:0; color:#FFDD44;">·</span>Criação de peças visuais para campanhas de mídias sociais, comunicação de marca e marketing em múltiplos formatos.</li>
-              <li style="font-size:15px; line-height:1.6; color:#B7AEA2; font-weight:300; padding-left:18px; position:relative;"><span style="position:absolute; left:0; color:#FFDD44;">·</span>Desenvolvimento de identidades visuais para marcas, produtos e campanhas, com soluções digitais e impressas.</li>
-              <li style="font-size:15px; line-height:1.6; color:#B7AEA2; font-weight:300; padding-left:18px; position:relative;"><span style="position:absolute; left:0; color:#FFDD44;">·</span>Integração de IA (Claude, Midjourney e DALL·E) ao fluxo criativo para refinar conceitos e acelerar a ideação.</li>
+              <li style="font-size:15px; line-height:1.6; color:#B7AEA2; font-weight:300; padding-left:18px; position:relative;"><span style="position:absolute; left:0; color:#FFDD44;">·</span><span data-i18n="job1.bullet1">Criação de peças visuais para campanhas de mídias sociais, comunicação de marca e marketing em múltiplos formatos.</span></li>
+              <li style="font-size:15px; line-height:1.6; color:#B7AEA2; font-weight:300; padding-left:18px; position:relative;"><span style="position:absolute; left:0; color:#FFDD44;">·</span><span data-i18n="job1.bullet2">Desenvolvimento de identidades visuais para marcas, produtos e campanhas, com soluções digitais e impressas.</span></li>
+              <li style="font-size:15px; line-height:1.6; color:#B7AEA2; font-weight:300; padding-left:18px; position:relative;"><span style="position:absolute; left:0; color:#FFDD44;">·</span><span data-i18n="job1.bullet3">Integração de IA (Claude, Midjourney e DALL·E) ao fluxo criativo para refinar conceitos e acelerar a ideação.</span></li>
             </ul>
           </div>
           <div style="position:relative;">
             <span style="position:absolute; left:-35px; top:6px; width:13px; height:13px; border-radius:50%; background:linear-gradient(135deg,#FA6404,#E2725B);"></span>
             <h3 style="font-family:'Outfit',sans-serif; font-weight:600; font-size:23px; line-height:1.1; margin:0 0 6px; color:#F4EEE6; letter-spacing:-.01em;">UX/UI Designer &amp; Product Designer</h3>
-            <div style="display:flex; flex-wrap:wrap; gap:4px 10px; align-items:baseline; margin-bottom:14px; font-size:14px;"><span style="color:#FA6404;">Koleta Dados · Brasil · Remoto · Tempo integral</span><span style="color:#5f594f;">·</span><span style="color:#8f8778; letter-spacing:.04em;">mar/2025 — mar/2026</span></div>
+            <div style="display:flex; flex-wrap:wrap; gap:4px 10px; align-items:baseline; margin-bottom:14px; font-size:14px;"><span data-i18n="job2.meta" style="color:#FA6404;">Koleta Dados · Brasil · Remoto · Tempo integral</span><span style="color:#5f594f;">·</span><span data-i18n="job2.year" style="color:#8f8778; letter-spacing:.04em;">mar/2025 — mar/2026</span></div>
             <ul style="margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:9px;">
-              <li style="font-size:15px; line-height:1.6; color:#B7AEA2; font-weight:300; padding-left:18px; position:relative;"><span style="position:absolute; left:0; color:#FFDD44;">·</span>Liderança do redesign da plataforma: pesquisa, estratégia de produto, UI design e documentação funcional.</li>
-              <li style="font-size:15px; line-height:1.6; color:#B7AEA2; font-weight:300; padding-left:18px; position:relative;"><span style="position:absolute; left:0; color:#FFDD44;">·</span>Construção de um design system escalável no Figma, com componentes padronizados e documentação para handoff.</li>
-              <li style="font-size:15px; line-height:1.6; color:#B7AEA2; font-weight:300; padding-left:18px; position:relative;"><span style="position:absolute; left:0; color:#FFDD44;">·</span>Design de dashboards corporativos, formulários e fluxos guiados com foco em legibilidade e eficiência.</li>
-              <li style="font-size:15px; line-height:1.6; color:#B7AEA2; font-weight:300; padding-left:18px; position:relative;"><span style="position:absolute; left:0; color:#FFDD44;">·</span>Uso da plataforma Claude no fluxo de trabalho para acelerar a documentação de componentes e explorar alternativas de solução para os fluxos do produto.</li>
+              <li style="font-size:15px; line-height:1.6; color:#B7AEA2; font-weight:300; padding-left:18px; position:relative;"><span style="position:absolute; left:0; color:#FFDD44;">·</span><span data-i18n="job2.bullet1">Liderança do redesign da plataforma: pesquisa, estratégia de produto, UI design e documentação funcional.</span></li>
+              <li style="font-size:15px; line-height:1.6; color:#B7AEA2; font-weight:300; padding-left:18px; position:relative;"><span style="position:absolute; left:0; color:#FFDD44;">·</span><span data-i18n="job2.bullet2">Construção de um design system escalável no Figma, com componentes padronizados e documentação para handoff.</span></li>
+              <li style="font-size:15px; line-height:1.6; color:#B7AEA2; font-weight:300; padding-left:18px; position:relative;"><span style="position:absolute; left:0; color:#FFDD44;">·</span><span data-i18n="job2.bullet3">Design de dashboards corporativos, formulários e fluxos guiados com foco em legibilidade e eficiência.</span></li>
+              <li style="font-size:15px; line-height:1.6; color:#B7AEA2; font-weight:300; padding-left:18px; position:relative;"><span style="position:absolute; left:0; color:#FFDD44;">·</span><span data-i18n="job2.bullet4">Uso da plataforma Claude no fluxo de trabalho para acelerar a documentação de componentes e explorar alternativas de solução para os fluxos do produto.</span></li>
             </ul>
           </div>
           <div style="position:relative;">
             <span style="position:absolute; left:-35px; top:6px; width:13px; height:13px; border-radius:50%; background:linear-gradient(135deg,#E2725B,#D58D8D);"></span>
             <h3 style="font-family:'Outfit',sans-serif; font-weight:600; font-size:23px; line-height:1.1; margin:0 0 6px; color:#F4EEE6; letter-spacing:-.01em;">UI/UX Designer &amp; Brand Designer</h3>
-            <div style="display:flex; flex-wrap:wrap; gap:4px 10px; align-items:baseline; margin-bottom:14px; font-size:14px;"><span style="color:#FA6404;">Freelancer · Brasil · Remoto</span><span style="color:#5f594f;">·</span><span style="color:#8f8778; letter-spacing:.04em;">2021 — 2023</span></div>
+            <div style="display:flex; flex-wrap:wrap; gap:4px 10px; align-items:baseline; margin-bottom:14px; font-size:14px;"><span data-i18n="job3.meta" style="color:#FA6404;">Freelancer · Brasil · Remoto</span><span style="color:#5f594f;">·</span><span style="color:#8f8778; letter-spacing:.04em;">2021 — 2023</span></div>
             <ul style="margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:9px;">
-              <li style="font-size:15px; line-height:1.6; color:#B7AEA2; font-weight:300; padding-left:18px; position:relative;"><span style="position:absolute; left:0; color:#FFDD44;">·</span>Projetos completos de branding: logotipos, sistemas tipográficos, paletas de cores e manuais de marca.</li>
-              <li style="font-size:15px; line-height:1.6; color:#B7AEA2; font-weight:300; padding-left:18px; position:relative;"><span style="position:absolute; left:0; color:#FFDD44;">·</span>Sites responsivos e e-commerce, do wireframe ao protótipo de alta fidelidade no Figma.</li>
-              <li style="font-size:15px; line-height:1.6; color:#B7AEA2; font-weight:300; padding-left:18px; position:relative;"><span style="position:absolute; left:0; color:#FFDD44;">·</span>Apresentação de conceitos a clientes e stakeholders, com iteração rápida orientada a feedback.</li>
+              <li style="font-size:15px; line-height:1.6; color:#B7AEA2; font-weight:300; padding-left:18px; position:relative;"><span style="position:absolute; left:0; color:#FFDD44;">·</span><span data-i18n="job3.bullet1">Projetos completos de branding: logotipos, sistemas tipográficos, paletas de cores e manuais de marca.</span></li>
+              <li style="font-size:15px; line-height:1.6; color:#B7AEA2; font-weight:300; padding-left:18px; position:relative;"><span style="position:absolute; left:0; color:#FFDD44;">·</span><span data-i18n="job3.bullet2">Sites responsivos e e-commerce, do wireframe ao protótipo de alta fidelidade no Figma.</span></li>
+              <li style="font-size:15px; line-height:1.6; color:#B7AEA2; font-weight:300; padding-left:18px; position:relative;"><span style="position:absolute; left:0; color:#FFDD44;">·</span><span data-i18n="job3.bullet3">Apresentação de conceitos a clientes e stakeholders, com iteração rápida orientada a feedback.</span></li>
             </ul>
           </div>
         </div>
@@ -205,14 +208,14 @@
         <div style="display:flex; flex-direction:column; gap:20px;">
           <div class="card">
             <div style="padding:26px 28px;">
-              <div style="font-family:'Outfit',sans-serif; font-size:19px; font-weight:600; color:#FFDD44; margin-bottom:18px; letter-spacing:-.01em;">Idiomas</div>
+              <div data-i18n="card.languagesTitle" style="font-family:'Outfit',sans-serif; font-size:19px; font-weight:600; color:#FFDD44; margin-bottom:18px; letter-spacing:-.01em;">Idiomas</div>
               <div style="display:flex; flex-direction:column; gap:14px;">
                 <div>
-                  <div style="display:flex; justify-content:space-between; font-size:15px; color:#E7DFD3; margin-bottom:7px;"><span>Português</span><span style="color:#8f8778;">Nativo</span></div>
+                  <div style="display:flex; justify-content:space-between; font-size:15px; color:#E7DFD3; margin-bottom:7px;"><span data-i18n="card.langPt">Português</span><span data-i18n="card.langPtLevel" style="color:#8f8778;">Nativo</span></div>
                   <div style="height:5px; border-radius:3px; background:rgba(255,255,255,.08);"><div style="height:100%; width:100%; border-radius:3px; background:linear-gradient(90deg,#FFDD44,#FA6404);"></div></div>
                 </div>
                 <div>
-                  <div style="display:flex; justify-content:space-between; font-size:15px; color:#E7DFD3; margin-bottom:7px;"><span>Inglês</span><span style="color:#8f8778;">Profissional</span></div>
+                  <div style="display:flex; justify-content:space-between; font-size:15px; color:#E7DFD3; margin-bottom:7px;"><span data-i18n="card.langEn">Inglês</span><span data-i18n="card.langEnLevel" style="color:#8f8778;">Profissional</span></div>
                   <div style="height:5px; border-radius:3px; background:rgba(255,255,255,.08);"><div style="height:100%; width:82%; border-radius:3px; background:linear-gradient(90deg,#FA6404,#E2725B);"></div></div>
                 </div>
               </div>
@@ -220,10 +223,10 @@
           </div>
           <div class="card">
             <div style="padding:26px 28px;">
-              <div style="font-family:'Outfit',sans-serif; font-size:19px; font-weight:600; color:#FFDD44; margin-bottom:18px; letter-spacing:-.01em;">Formação</div>
+              <div data-i18n="card.educationTitle" style="font-family:'Outfit',sans-serif; font-size:19px; font-weight:600; color:#FFDD44; margin-bottom:18px; letter-spacing:-.01em;">Formação</div>
               <div style="display:flex; flex-direction:column; gap:16px;">
                 <div>
-                  <div style="font-size:15px; color:#F4EEE6; font-weight:400;">Bacharelado em Design</div>
+                  <div data-i18n="card.edu1Title" style="font-size:15px; color:#F4EEE6; font-weight:400;">Bacharelado em Design</div>
                   <div style="font-size:13px; color:#9d9488; margin-top:3px;">Universidade do Sul de Santa Catarina · 2021—2023</div>
                 </div>
                 <div style="height:1px; background:rgba(255,255,255,.08);"></div>
@@ -239,7 +242,7 @@
 
       <!-- SKILLS -->
       <div style="margin-top:clamp(56px,8vh,88px);">
-        <div style="font-family:'Outfit',sans-serif; font-size:26px; font-weight:600; color:#F4EEE6; margin-bottom:24px; letter-spacing:-.01em;">Habilidades</div>
+        <div data-i18n="skills.title" style="font-family:'Outfit',sans-serif; font-size:26px; font-weight:600; color:#F4EEE6; margin-bottom:24px; letter-spacing:-.01em;">Habilidades</div>
         <div style="overflow:hidden; -webkit-mask-image:linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); mask-image:linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);">
           <div class="skills-marquee" style="display:flex; width:max-content; animation:marquee 34s linear infinite;">
             <div style="display:flex; gap:12px; padding-right:12px;">
@@ -248,14 +251,14 @@
               <span class="badge badge-lg">Design Systems</span>
               <span class="badge badge-lg">Web Design</span>
               <span class="badge badge-lg">Branding</span>
-              <span class="badge badge-lg">Identidade Visual</span>
-              <span class="badge badge-lg">Mídias Sociais</span>
+              <span class="badge badge-lg" data-i18n="skill.visualIdentity">Identidade Visual</span>
+              <span class="badge badge-lg" data-i18n="skill.socialMedia">Mídias Sociais</span>
               <span class="badge badge-lg">Figma</span>
               <span class="badge badge-lg">Photoshop</span>
               <span class="badge badge-lg">Illustrator</span>
-              <span class="badge badge-lg">Prototipagem</span>
-              <span class="badge badge-lg">Pesquisa com Usuários</span>
-              <span class="badge badge-lg">IA no Fluxo Criativo</span>
+              <span class="badge badge-lg" data-i18n="skill.prototyping">Prototipagem</span>
+              <span class="badge badge-lg" data-i18n="skill.userResearch">Pesquisa com Usuários</span>
+              <span class="badge badge-lg" data-i18n="skill.aiWorkflow">IA no Fluxo Criativo</span>
             </div>
             <div aria-hidden="true" style="display:flex; gap:12px; padding-right:12px;">
               <span class="badge badge-lg">Product Design</span>
@@ -263,14 +266,14 @@
               <span class="badge badge-lg">Design Systems</span>
               <span class="badge badge-lg">Web Design</span>
               <span class="badge badge-lg">Branding</span>
-              <span class="badge badge-lg">Identidade Visual</span>
-              <span class="badge badge-lg">Mídias Sociais</span>
+              <span class="badge badge-lg" data-i18n="skill.visualIdentity">Identidade Visual</span>
+              <span class="badge badge-lg" data-i18n="skill.socialMedia">Mídias Sociais</span>
               <span class="badge badge-lg">Figma</span>
               <span class="badge badge-lg">Photoshop</span>
               <span class="badge badge-lg">Illustrator</span>
-              <span class="badge badge-lg">Prototipagem</span>
-              <span class="badge badge-lg">Pesquisa com Usuários</span>
-              <span class="badge badge-lg">IA no Fluxo Criativo</span>
+              <span class="badge badge-lg" data-i18n="skill.prototyping">Prototipagem</span>
+              <span class="badge badge-lg" data-i18n="skill.userResearch">Pesquisa com Usuários</span>
+              <span class="badge badge-lg" data-i18n="skill.aiWorkflow">IA no Fluxo Criativo</span>
             </div>
           </div>
         </div>
@@ -281,9 +284,9 @@
   <!-- ================= CONTACT (light) ================= -->
   <section id="contato" data-screen-label="Contato" style="position:relative; z-index:5; overflow:hidden; background:linear-gradient(160deg, #FFE7B0 0%, #F3B49A 58%, #D58D8D 100%); color:#2A1608; padding:clamp(90px,16vh,180px) clamp(20px,6vw,88px); text-align:center;">
     <div style="position:relative; z-index:2; max-width:760px; margin:0 auto;">
-      <div style="font-size:12px; letter-spacing:.28em; text-transform:uppercase; color:#9c380c; margin-bottom:22px;">Contato</div>
-      <h2 style="font-family:'Outfit',sans-serif; font-weight:600; font-size:clamp(44px,8vw,96px); line-height:1; margin:0 0 26px; color:#2A1608; letter-spacing:-.025em;">Vamos criar <span style="color:#B0400F;">algo juntos?</span></h2>
-      <p style="font-size:17px; line-height:1.7; color:#6b4a34; font-weight:400; margin:0 auto 38px; max-width:520px;">Aberta a oportunidades em times que valorizam pesquisa, qualidade e design orientado a impacto.</p>
+      <div data-i18n="contact.eyebrow" style="font-size:12px; letter-spacing:.28em; text-transform:uppercase; color:#9c380c; margin-bottom:22px;">Contato</div>
+      <h2 data-i18n-html="contact.title" style="font-family:'Outfit',sans-serif; font-weight:600; font-size:clamp(44px,8vw,96px); line-height:1; margin:0 0 26px; color:#2A1608; letter-spacing:-.025em;">Vamos criar <span style="color:#B0400F;">algo juntos?</span></h2>
+      <p data-i18n="contact.desc" style="font-size:17px; line-height:1.7; color:#6b4a34; font-weight:400; margin:0 auto 38px; max-width:520px;">Aberta a oportunidades em times que valorizam pesquisa, qualidade e design orientado a impacto.</p>
       <a href="mailto:nathaliaafilomeno@gmail.com" class="contact-btn" style="display:inline-flex; align-items:center; gap:12px; background:#201308; color:#FFE7B0; font-weight:400; font-size:17px; padding:18px 36px; border-radius:999px;">nathaliaafilomeno@gmail.com</a>
       <div style="display:flex; gap:28px; justify-content:center; margin-top:32px; font-size:13px; letter-spacing:.1em; text-transform:uppercase;">
         <a href="https://www.linkedin.com/in/nathaliafilomeno" target="_blank" rel="noopener" style="color:#2A1608;">LinkedIn ↗</a>
@@ -295,7 +298,7 @@
   <!-- FOOTER (dark) -->
   <footer class="dark" style="position:relative; z-index:5; background:#000; border-top:1px solid rgba(255,221,68,.1); padding:26px clamp(20px,6vw,88px); display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; align-items:center;">
     <span style="font-family:'Outfit',sans-serif; font-weight:600; font-size:22px; color:#F4EEE6;">NF<span style="color:#FA6404;">.</span></span>
-    <span style="font-size:13px; color:#8f8778;">Florianópolis, Santa Catarina · Brasil</span>
+    <span data-i18n="footer.location" style="font-size:13px; color:#8f8778;">Florianópolis, Santa Catarina · Brasil</span>
     <span style="font-size:13px; color:#6f685d;">© 2026 Nathalia Filomeno</span>
   </footer>
 

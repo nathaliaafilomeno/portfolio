@@ -1,3 +1,7 @@
+import { initI18n } from './i18n.js';
+
+initI18n();
+
 // Hero: garante autoplay do vídeo de fundo (alguns navegadores exigem play() explícito)
 const heroVideo = document.getElementById('hero-video');
 if (heroVideo) {
